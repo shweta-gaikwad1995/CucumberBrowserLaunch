@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="10.497">
-    <testcase classname="feature to test google search functionality" name="Validate google search is working" time="10.32">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="115.732">
+    <testcase classname="feature to test google search functionality" name="Validate google search is working" time="113.903">
         <system-out><![CDATA[Given browser window is open................................................passed
 And user is on google search page...........................................passed
 When user enters a text in search box.......................................passed
@@ -8,7 +8,7 @@ And hits enter..............................................................pass
 Then user is navigated to search results....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="feature to test login functionality" name="Check login is successful with valid credentials" time="0.014">
+    <testcase classname="feature to test login functionality" name="Check login is successful with valid credentials" time="0.055">
         <system-out><![CDATA[Given user is on login page.................................................passed
 When user enters username and password......................................passed
 And clicks on login button..................................................passed
